@@ -1,0 +1,23 @@
+{
+  "name": "hexo-soundcloud",
+  "version": "0.1.0",
+  "description": "A SoundCloud plugin for the Hexo.js static blogging platform.",
+  "main": "soundcloud.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewboni/hexo-soundcloud.git"
+  },
+  "keywords": [
+    "hexo",
+    "soundcloud"
+  ],
+  "author": "Andrew Boni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewboni/hexo-soundcloud/issues"
+  },
+  "homepage": "https://github.com/andrewboni/hexo-soundcloud"
+}

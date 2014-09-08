@@ -3,8 +3,13 @@ Original blog post here: http://www.andrewboni.com/2014/06/08/A-Soundcloud-tag-p
 # About
 This is a simple Hexo plugin that makes it easy to embed SoundCloud tracks.
 
-# Usage
-To install the plugin, simply add the `soundcloud.js` file to the `scripts/`folder within the root directory of your Hexo blog. If a `scripts/` folder doesn't exist, create one in the root directory.
+# Installation / Usage
+Get the plugin via NPM:
+```
+npm install hexo-soundcloud
+```
+
+Then, simply add the `soundcloud.js` file to the `scripts/`folder within the root directory of your Hexo blog. If a `scripts/` folder doesn't exist, create one in the root directory.
 
 Then, simply add this markup:
 
