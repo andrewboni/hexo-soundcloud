@@ -4,7 +4,7 @@ Original blog post here: http://www.andrewboni.com/2014/06/08/A-Soundcloud-tag-p
 This is a simple Hexo plugin that makes it easy to embed Soundcloud tracks.
 
 # Installation / Usage
-###1. Get the plugin via NPM:
+###1. Get the plugin via npm
 ```
 npm install --save-dev hexo-soundcloud
 ```
@@ -13,16 +13,16 @@ npm install --save-dev hexo-soundcloud
 plugins:
   - hexo-soundcloud
 ```
-###3. Add the tag markup:
+###3. Add the tag markup to a post
 
 ```
 {% soundcloud https://soundcloud.com/only-the-beat/3lau-electric-daisy-carnival-edc-new-york-2014 visual %}
 ```
 Note that the second parameter is optional and can be one of two things:
 
-- ‘visual’
-- ‘default’
-- ‘Visual’ will use the newer, larger Soundcloud player, while ‘default’ or simply leaving it blank will default to the standard Soundcloud player.
+- `visual`
+- `default`
+- `visual` will use the newer, larger Soundcloud player, while ‘default’ (or simply leaving it blank) will default to the standard Soundcloud player.
 
 # Examples
 ## Visual player
