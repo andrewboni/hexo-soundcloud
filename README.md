@@ -16,7 +16,7 @@ plugins:
 ###3. Add the tag markup to a post
 
 ```
-{% soundcloud https://soundcloud.com/only-the-beat/3lau-electric-daisy-carnival-edc-new-york-2014 visual %}
+{% soundcloud https://soundcloud.com/piercefulton/get-weird-018 visual %}
 ```
 Note that the second parameter is optional and can be one of two things:
 
