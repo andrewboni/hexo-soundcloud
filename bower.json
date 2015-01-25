@@ -1,0 +1,22 @@
+{
+  "name": "hexo-soundcloud",
+  "version": "0.0.0",
+  "main": "dist/hexo-soundcloud.min.js",
+  "homepage": "https://github.com/andrewboni/hexo-soundcloud",
+  "description": "A SoundCloud plugin for Hexo",
+  "keywords": [
+    "Hexo",
+    "soundcloud"
+  ],
+  "authors": [
+    "Andrew Boni"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
