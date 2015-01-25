@@ -1,6 +1,6 @@
 {
   "name": "hexo-soundcloud",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A SoundCloud plugin for the Hexo.js static blogging platform.",
   "main": "dist/hexo-soundcloud.min.js",
   "scripts": {

@@ -4,14 +4,16 @@ Original blog post here: http://www.andrewboni.com/2014/06/08/A-Soundcloud-tag-p
 This is a simple Hexo plugin that makes it easy to embed Soundcloud tracks.
 
 # Installation / Usage
-Get the plugin via NPM:
+###1. Get the plugin via NPM:
 ```
-npm install hexo-soundcloud
+npm install --save-dev hexo-soundcloud
 ```
-
-Then, simply add the `hexo-soundcloud.js` or `hexo-soundcloud.min.js` file located in `dist/` to the `scripts/`folder within the root directory of your Hexo blog. If a `scripts/` folder doesn't exist, create one in the root directory.
-
-Then, simply add this markup:
+###2. Add the plugin to `_config.yml`
+```yaml
+plugins:
+  - hexo-soundcloud
+```
+###3. Add the tag markup:
 
 ```
 {% soundcloud https://soundcloud.com/only-the-beat/3lau-electric-daisy-carnival-edc-new-york-2014 visual %}
@@ -37,7 +39,7 @@ The following code brings up the default player:
 # Contributing
 The source is located in `src/hexo-soundcloud.coffee`. There are two Grunt tasks defined in `Gruntfile.coffee`- one for watching the coffee source for changes & compiling, and one for minifying.
 
-When working on the source file, grunt `grunt` to watch for changes.
+When working on the source file, run `grunt` to watch for changes.
 
 When ready to minify, run `grunt build` to uglify `dist/hexo-soundcloud.js`.
 
