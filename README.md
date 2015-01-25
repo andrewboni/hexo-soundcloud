@@ -34,3 +34,5 @@ The following code brings up the default player:
 ```
 {% soundcloud https://soundcloud.com/porter-robinson/sad-machine %}
 ```
+# License
+MIT
