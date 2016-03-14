@@ -6,12 +6,12 @@ This is a simple Hexo plugin that makes it easy to embed Soundcloud tracks.
 # Installation / Usage
 ###1. Get the plugin via npm
 ```
-npm install --save-dev hexo-soundcloud
+npm install hexo-soundcloud --save
 ```
 ###2. Add the plugin to `_config.yml`
 ```yaml
 plugins:
-  - hexo-soundcloud
+  hexo-soundcloud
 ```
 ###3. Add the tag markup to a post
 
